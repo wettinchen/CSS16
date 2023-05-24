@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* Begin Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+/* End Reset */
+
+/* Utility Classes */
+.nowrap {
+    white-space: nowrap;
+}
+/* End Utility Classes */
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
